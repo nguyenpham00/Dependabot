@@ -1,13 +1,13 @@
-name: Greetings
+name:Grame
 
-on: [pull_request, issues]
+ on: [pull_request,issues]
 
 jobs:
-  greeting:
+  greeting:Hello
     runs-on: ubuntu-latest
-    steps:
+    steps: Best
     - uses: actions/first-interaction@v1
-      with:
+      with: Parallel
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Message that will be displayed on users'' first issue'
         pr-message: 'Message that will be displayed on users'' first pr'
